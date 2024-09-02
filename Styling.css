@@ -1,0 +1,29 @@
+
+.container-fluid{
+    background-color: #c68f54; 
+    
+}
+ body{
+    background-color: rgb(6, 167, 167);
+ }
+pre{
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    font-size: 6rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    gap: 20px;
+    font-style: italic;
+    color: rgb(69, 212, 72);
+    text-shadow: 4px 0 black;
+ }
+
+.card-body:hover{
+   background-color: #004c4c; 
+   color:white;
+ }
+
+.card-footer:hover{
+    background-color:#c16604 ;
+    color: rgb(255, 253, 253);
+ }

@@ -1,0 +1,75 @@
+
+.container-fluid{
+   background-color: #c68f54;
+}
+.header{
+  display: grid;
+  height: 38vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+ 
+   /* background-color: 	#004c4c;
+    background: rgb(0,128,128);
+background: linear-gradient(0deg, rgba(0,128,128,1) 0%, rgba(198,143,84,1) 100%);*/
+}
+button{
+  width: 100px;
+}
+.grid{
+  display: grid;
+  
+  grid-template-columns: 1fr 1fr 1.50fr;
+  grid-template-rows: repeat(4,.2fr 1.2fr 1.2fr );
+  
+  text-align: center;
+  justify-content: center;
+  
+}
+.crypto{
+  border: 1px solid black;
+  
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+.holding{
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+.profits{
+  border: 1px solid black;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+}
+.btc{
+ background-color: 	#b2d8d8;
+ border: 0.5px solid black;
+ gap: 1px;
+}
+.main{
+    background-color: aqua;
+}
+
+span{
+  color: green;
+}
+.failed{
+  color: red;
+}
+.size{
+  font-size: 2rem;
+}
+
+.gains{
+  color: green;
+}
+.usd{
+  color: rgb(13, 0, 255);
+}
+.curr{
+  color: rgb(226, 53, 215);
+}
+.dropdown-item:hover{
+  background-color: black;
+  color: antiquewhite;
+}
