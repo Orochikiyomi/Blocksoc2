@@ -8,9 +8,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
  
-   /* background-color: 	#004c4c;
-    background: rgb(0,128,128);
-background: linear-gradient(0deg, rgba(0,128,128,1) 0%, rgba(198,143,84,1) 100%);*/
+
 }
 button{
   width: 100px;
@@ -23,7 +21,7 @@ button{
   
   text-align: center;
   justify-content: center;
-  
+
 }
 .crypto{
   border: 1px solid black;
@@ -72,4 +70,9 @@ span{
 .dropdown-item:hover{
   background-color: black;
   color: antiquewhite;
+}
+@media screen and (min-height: 800px){
+  .grid container{
+padding-top: 200px;
+  }
 }
